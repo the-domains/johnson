@@ -1,28 +1,40 @@
-name: johnson
 favicon: null
-layout_spectrum: 0.4228753987699747
-typography_spectrum: 0.5586960667278618
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: johnson
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.25
+  brandStrength: 0.9375
+  rhythmicContrast: 0.75
   brandColors:
     - '#000000'
     - '#282828'
     - '#d8d5d0'
     - '#7e5c53'
     - '#9ba19f'
-  brandStrength: 0.9375
   lightness: 1
-  saturation: 0.25
-  rhythmicContrast: 0.75
-purpose: []
+typography_spectrum: 0.5586960667278618
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.5125448
+analytics:
+  twitter: null
+  google: null
+  facebook: null
