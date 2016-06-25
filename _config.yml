@@ -14,7 +14,7 @@ collections:
       path: /rss.xml
       format: rss
       number: 10
-title: 'This Life of Johnson | Simple Man'
+title: This Life of Johnson | A Simple Man
 cta:
   domain: null
   bucket: null
